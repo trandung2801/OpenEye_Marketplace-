@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-project",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compiler.js",
+    "deploy": "hardhat run scripts/deploy.ts --network",
+    "test": "hardhat test",
+    "verify": "hardhat verify --network"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.20.1",
+    "openzeppelin-solidity": "^3.4.2",
+    "web3": "^4.5.0",
+    "yarn": "^1.22.21"
+  }
+}
